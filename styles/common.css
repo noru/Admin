@@ -1,0 +1,41 @@
+html, body, label, span, div, *{
+    font-family: "Artifakt Element", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+#app {
+  overflow: hidden;
+}
+.inline {
+  display: inline-block;
+}
+.aes-panel {
+    border: #DDD 1px solid;
+    border-radius: 4px;
+    background-color: #EEE;
+}
+.separator {
+    display: inline-block;
+    margin: 0 10px;
+    width: 1px;
+    height: 1.3em;
+    background-color: gray;
+    position: relative;
+}
+.separator.horizontal {
+    margin: 10px 0;
+    height: 1px;
+    width: 100%;
+}
+
+body .modal {
+  display: flex !important;
+}
+
+body .modal .modal-dialog {
+  margin: auto;
+  position: relative;
+  top: -80px;
+}

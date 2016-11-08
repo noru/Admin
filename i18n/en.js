@@ -1,0 +1,68 @@
+export default {
+  title: 'Visualization Asset Admin Console',
+  action_failed: '{action} Failed',
+  ok: 'Ok',
+  cancel: 'Cancel',
+  sign_in: 'Sign In',
+  redirecting: 'Redirecting...',
+  sign_out: 'Sign Out',
+  sign_in_message: 'Please sign in first',
+  material: 'Material',
+  id: 'Id',
+  name: 'Name',
+  owner: 'Owner',
+  identifier: 'Identifier',
+  enter_identifier_desc: 'Identifier will be used to generate UUID for system material. An GUID will be generated if no input.',
+  prefilled_company_families_desc: 'Below properties will be set automatically: Families=[prism;Prism.Fusion.2016];Company=autodesk.',
+  thumbnail_and_name: 'Thumbnail and Name',
+  status: 'Status',
+  updated_time: 'Updated At',
+  category: 'Category',
+  sub_category: 'Subcategory',
+  actions: 'Actions',
+  no_data: 'No relevant materials found',
+  pagination_info_template: 'Displaying {0} to {1} of {2} items',
+  publish_material: 'Publish Material',
+  unpublish_material: 'Unpublish Material',
+  copy_material: 'Copy Material',
+  publish: 'Publish',
+  unpublish: 'Unpublish',
+  enter_owner_desc: 'Enter at least one User ID (email address) to unpublish this material to',
+  copy_material_desc: 'Enter at least one User ID (email address) to copy this material to',
+  copy: 'Copy',
+  delete: 'Delete',
+  replace: 'Replace',
+  create_new: 'Create New',
+  replace_existing: 'Replace Existing',
+  searching: 'Searching...',
+  find_material: 'Find Material',
+  filters: {
+    status: {
+      _title: 'Status',
+      all: 'All',
+      'public': 'Public',
+      'private': 'Private'
+    },
+    category: {
+      _title: 'Category',
+      all: 'All',
+      cloth: 'Cloth',
+      substance: 'Substance',
+      spark: 'Spark',
+      color_density: 'Color Density',
+      wood_finished: 'Wood (solid)/Finished',
+      aluminum: 'Aluminum',
+      steel: 'Steel',
+      glass_textured: 'Glass/Textured',
+      leather: 'Leather'
+    }
+  },
+  msg: {
+    opps: 'Opps, something when awry...',
+    you_are_not_admin: "You're not an Administrator",
+    private_to_public_msg: 'Successfully published! Please wait for a moment and search again to see the update',
+    copy_msg: 'Successfully copied! Please wait for a moment and search again to see the update',
+    action_failed_msg: "Sorry, we're unable to {action} this material due to an error. Please try again later. Status: {status}. Message: {message}"
+  }
+
+}
